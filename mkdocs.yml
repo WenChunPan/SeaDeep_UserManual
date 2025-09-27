@@ -1,0 +1,140 @@
+# ===== 基本設置 =====
+# 網站名稱，會顯示在瀏覽器標籤和導航列
+site_name: SeaDeep操作手冊
+# 網站 URL，通常是 GitHub Pages 的位址
+# site_url: https://dwhao84.github.io/
+# # 作者資訊
+site_author: LEDA Technology
+# 網站描述，用於 SEO
+site_description: SeaDeep操作手冊
+
+# ===== 主題設置 =====
+theme:
+  # 使用 Material 主題
+  name: material
+  # 設定語言為繁體中文
+  language: zh-Hant
+  # 設定網站 logo（路徑相對於 docs 目錄）
+  logo: assets/logo.png
+  # 設定網站圖示
+  favicon: picture/logo.jpg
+
+  # ----- 功能設定 -----
+  features:
+    # === 導航功能 ===
+    - navigation.tabs      # 頂部顯示主要分類標籤
+    - navigation.sections  # 側邊欄分區顯示
+    - navigation.expand    # 自動展開導航項
+    - navigation.top       # 顯示返回頂部按鈕
+    - navigation.footer    # 顯示頁腳導航
+    - toc.follow          # 目錄跟隨滾動
+    
+    # === 搜尋功能 ===
+    - search.highlight    # 搜尋結果高亮顯示
+    - search.share       # 可分享搜尋結果
+    - search.suggest     # 搜尋建議
+    
+    # === 內容功能 ===
+    - content.code.copy   # 程式碼區塊可複製
+    - content.tabs.link   # 分頁內容可連結
+    
+    # === 進階功能 ===
+    - navigation.tracking # 跟蹤導航位置
+    - navigation.instant  # 即時頁面切換
+    - header.autohide     # 滾動時自動隱藏頁首
+    - announce.dismiss    # 可關閉公告
+
+  # ----- 配色方案 -----
+  palette:
+    # === 亮色主題 ===
+    - media: "(prefers-color-scheme: light)"  # 系統使用亮色模式時
+      scheme: default                         # 使用默認配色
+      primary: deep purple                    # 主要顏色
+      accent: purple                          # 強調顏色
+      toggle:
+        icon: material/weather-sunny          # 切換按鈕圖示
+        name: 切換至深色模式                  # 切換按鈕提示文字
+    
+    # === 暗色主題 ===
+    - media: "(prefers-color-scheme: dark)"   # 系統使用暗色模式時
+      scheme: slate                           # 使用石板配色
+      primary: purple                         # 主要顏色
+      accent: deep purple                     # 強調顏色
+      toggle:
+        icon: material/weather-night          # 切換按鈕圖示
+        name: 切換至淺色模式                  # 切換按鈕提示文字
+
+        
+# 定義網站的導航結構
+nav:
+  - 平台介面介紹: 
+      - 登入頁面: ping-tai-jie-mian-jie-shao/publish-your-docs.md
+  - 新增專案: xin-zeng-zhuan-an.md
+  - 載入專案: zai-ru-zhuan-an.md
+  - 專案首頁: zhuan-an-shou-ye.md
+  - 模型訓練推論:
+      - 物件偵測:
+          - 新增資料集:
+              - 上傳訓練資料: mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/xin-zeng-zi-liao-ji/shang-chuan-xun-lian-zi-liao.md
+              - 上傳推論資料: mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/xin-zeng-zi-liao-ji/shang-chuan-tui-lun-zi-liao.md
+          - 訓練模型:
+              - 下載模型權重: mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/xun-lian-mo-xing/xia-zai-mo-xing-quan-zhong.md
+          - 推論模型:
+              - 檢視推論結果: mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/tui-lun-mo-xing/jian-shi-tui-lun-jie-guo.md
+              - 下載推論結果: mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/tui-lun-mo-xing/xia-zai-tui-lun-jie-guo.md
+      - 異常偵測:
+          - 新增資料集:
+              - 上傳訓練資料: mo-xing-xun-lian-tui-lun/yi-chang-zhen-ce/xin-zeng-zi-liao-ji/shang-chuan-xun-lian-zi-liao.md
+              - 上傳推論資料: mo-xing-xun-lian-tui-lun/yi-chang-zhen-ce/xin-zeng-zi-liao-ji/shang-chuan-tui-lun-zi-liao.md
+          - 訓練模型:
+              - 下載模型權重: mo-xing-xun-lian-tui-lun/yi-chang-zhen-ce/xun-lian-mo-xing/xia-zai-mo-xing-quan-zhong.md
+          - 推論模型:
+              - 檢視推論結果: mo-xing-xun-lian-tui-lun/yi-chang-zhen-ce/tui-lun-mo-xing/jian-shi-tui-lun-jie-guo.md
+              - 下載推論結果: mo-xing-xun-lian-tui-lun/yi-chang-zhen-ce/tui-lun-mo-xing/xia-zai-tui-lun-jie-guo.md
+      - 分類:
+          - 新增資料集:
+              - 上傳訓練資料: mo-xing-xun-lian-tui-lun/fen-lei/xin-zeng-zi-liao-ji/shang-chuan-xun-lian-zi-liao.md
+              - 上傳推論資料: mo-xing-xun-lian-tui-lun/fen-lei/xin-zeng-zi-liao-ji/shang-chuan-tui-lun-zi-liao.md
+          - 訓練模型:
+              - 下載模型權重: mo-xing-xun-lian-tui-lun/fen-lei/xun-lian-mo-xing/xia-zai-mo-xing-quan-zhong.md
+          - 推論模型:
+              - 檢視推論結果: mo-xing-xun-lian-tui-lun/fen-lei/tui-lun-mo-xing/jian-shi-tui-lun-jie-guo.md
+              - 下載推論結果: mo-xing-xun-lian-tui-lun/fen-lei/tui-lun-mo-xing/xia-zai-tui-lun-jie-guo.md
+      - 實例分割:
+          - 新增資料集:
+              - 上傳訓練資料: mo-xing-xun-lian-tui-lun/shi-li-fen-ge/xin-zeng-zi-liao-ji/shang-chuan-xun-lian-zi-liao.md
+              - 上傳推論資料: mo-xing-xun-lian-tui-lun/shi-li-fen-ge/xin-zeng-zi-liao-ji/shang-chuan-tui-lun-zi-liao.md
+          - 訓練模型:
+              - 下載模型權重: mo-xing-xun-lian-tui-lun/shi-li-fen-ge/xun-lian-mo-xing/xia-zai-mo-xing-quan-zhong.md
+          - 推論模型:
+              - 檢視推論結果: mo-xing-xun-lian-tui-lun/shi-li-fen-ge/tui-lun-mo-xing/jian-shi-tui-lun-jie-guo.md
+              - 下載推論結果: mo-xing-xun-lian-tui-lun/shi-li-fen-ge/tui-lun-mo-xing/xia-zai-tui-lun-jie-guo.md
+  - 資料集介紹:
+      - 物件偵測:
+          - 檢視資料內容: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/jian-shi-zi-liao-nei-rong.md
+          - 新增檔案: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/xin-zeng-dang-an.md
+          - 升級版本: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/sheng-ji-ban-ben.md
+          - 檢視標籤: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/jian-shi-biao-qian.md
+          - 標籤名稱變更: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/biao-qian-ming-cheng-bian-geng.md
+          - 移除資料: zi-liao-ji-jie-shao/wu-jian-zhen-ce-zi-liao-ji/yi-chu-zi-liao.md
+      - 異常偵測:
+          - 檢視資料內容: zi-liao-ji-jie-shao/yi-chang-zhen-ce-zi-liao-ji/jian-shi-zi-liao-nei-rong.md 
+          - 新增檔案: zi-liao-ji-jie-shao/yi-chang-zhen-ce-zi-liao-ji/xin-zeng-dang-an.md
+          - 升級版本: zi-liao-ji-jie-shao/yi-chang-zhen-ce-zi-liao-ji/sheng-ji-ban-ben.md
+          - 移除資料: zi-liao-ji-jie-shao/yi-chang-zhen-ce-zi-liao-ji/yi-chu-zi-liao.md 
+      - 分類:
+          - 檢視資料內容: zi-liao-ji-jie-shao/fen-lei-zi-liao-ji/jian-shi-zi-liao-nei-rong.md
+          - 新增檔案: zi-liao-ji-jie-shao/fen-lei-zi-liao-ji/xin-zeng-dang-an.md
+          - 升級版本: zi-liao-ji-jie-shao/fen-lei-zi-liao-ji/sheng-ji-ban-ben.md
+          - 移除資料: zi-liao-ji-jie-shao/fen-lei-zi-liao-ji/yi-chu-zi-liao.md
+          - 新增類別: zi-liao-ji-jie-shao/fen-lei-zi-liao-ji/xin-zeng-lei-bie.md
+      - 實例分割:
+          - 檢視資料內容: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/jian-shi-zi-liao-nei-rong.md
+          - 新增檔案: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/xin-zeng-dang-an.md
+          - 升級版本: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/sheng-ji-ban-ben.md
+          - 檢視標籤: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/jian-shi-biao-qian.md
+          - 標籤名稱變更: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/biao-qian-ming-cheng-bian-geng.md
+          - 移除資料: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/yi-chu-zi-liao.md
+  # - 使用方法:
+  #     - 基本: usage/basic.md
+  #     - 進階: usage/advanced.md
