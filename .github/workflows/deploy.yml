@@ -1,0 +1,24 @@
+name: 自動部署 Mkdocs 網站   # ① 工作流程名稱，可自訂
+
+on:                       # ② 觸發條件
+  push:
+    branches:
+      - main              # 監控 main 分支的 push
+
+jobs:                     # ③ 定義要執行的工作
+  deploy:                 # deploy為工作名稱，可自訂
+    runs-on: ubuntu-latest # 在哪個環境執行（固定格式）
+    steps:                # ④ 每個步驟要執行什麼
+      - name: Checkout repository # 下載專案到雲端環境
+        uses: actions/checkout@v3
+
+      - name: Set up Python # 安裝 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies # 安裝相依套件
+        run: pip install mkdocs mkdocs-material
+
+      - name: Deploy site # 使用指令部署網站， --force: 覆蓋舊版本
+        run: mkdocs gh-deploy --force
