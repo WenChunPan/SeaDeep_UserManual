@@ -6,7 +6,7 @@
 2. 確認所在位置在**資料集內**的 「 訓練項目 」 後，點擊 「 <mark style="color:blue;">新增資料集</mark>」。
 3. 點擊 「 <mark style="color:blue;">異常偵測</mark> 」 圖示。
 
-<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>選擇模型</p></figcaption></figure>
+![alt text](image.png)
 
 ## 2. 上傳訓練資料
 
@@ -15,14 +15,10 @@
 3. 點擊 「 <mark style="color:blue;">上傳檔案</mark> 」 。
 4. 訓練資料集上傳完成。
 
-{% hint style="danger" %}
-異常偵測訓練資料須為 「 好品 」 的圖片檔，同時訓練圖片數量須大於20張。
-{% endhint %}
+> 異常偵測訓練資料須為 「 好品 」 的圖片檔，同時訓練圖片數量須大於20張。
 
-{% hint style="success" %}
-上傳完成後，點擊 「 操作」 的 「 <mark style="color:blue;">向下箭頭</mark> 」 即可下載訓練資料集。
-{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption><p>上傳異常偵測訓練資料</p></figcaption></figure>
+> 上傳完成後，點擊 「 操作」 的 「 <mark style="color:blue;">向下箭頭</mark> 」 即可下載訓練資料集。
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p>上傳完成</p></figcaption></figure>
+![alt text](image-1.png)
+![alt text](image-2.png)

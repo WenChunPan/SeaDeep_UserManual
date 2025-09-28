@@ -2,7 +2,7 @@
 # 網站名稱，會顯示在瀏覽器標籤和導航列
 site_name: SeaDeep操作手冊
 # 網站 URL，通常是 GitHub Pages 的位址
-# site_url: https://dwhao84.github.io/
+site_url: https://wenchunpan.github.io/SeaDeep_UserManual
 # # 作者資訊
 site_author: LEDA Technology
 # 網站描述，用於 SEO
@@ -10,14 +10,14 @@ site_description: SeaDeep操作手冊
 
 # ===== 主題設置 =====
 theme:
-  # 使用 Material 主題
   name: material
+  language: zh
   # 設定語言為繁體中文
   language: zh-Hant
   # 設定網站 logo（路徑相對於 docs 目錄）
-  logo: assets/logo.png
+  logo: picture/SeaDeep_logo.png
   # 設定網站圖示
-  favicon: picture/logo.jpg
+  favicon: picture/SeaDeep_logo.png
 
   # ----- 功能設定 -----
   features:
@@ -49,8 +49,9 @@ theme:
     # === 亮色主題 ===
     - media: "(prefers-color-scheme: light)"  # 系統使用亮色模式時
       scheme: default                         # 使用默認配色
-      primary: deep purple                    # 主要顏色
-      accent: purple                          # 強調顏色
+      primary: yellow                    # 主要顏色
+      # 對比色，影響按鈕、標籤等
+      secondary: amber                         # 強調顏色
       toggle:
         icon: material/weather-sunny          # 切換按鈕圖示
         name: 切換至深色模式                  # 切換按鈕提示文字
@@ -135,6 +136,23 @@ nav:
           - 檢視標籤: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/jian-shi-biao-qian.md
           - 標籤名稱變更: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/biao-qian-ming-cheng-bian-geng.md
           - 移除資料: zi-liao-ji-jie-shao/shi-li-fen-ge-zi-liao-ji/yi-chu-zi-liao.md
+
+  - 模型訓練細節確認:
+      - 物件偵測: wu-jian-zhen-ce.md
+      - 異常偵測: yi-chang-zhen-ce.md
+      - 分類: fen-lei.md
+      - 實例分割: shi-li-fen-ge.md
+
+  - 進階應用:
+      - 新增核心-Linux: 
+          - 環境設定: jin-jie-ying-yong/xin-zeng-he-xin-linux/huan-jing-she-ding.md
+          - 在 SeaDeep 平台上新增核心: jin-jie-ying-yong/xin-zeng-he-xin-linux/zai-seadeep-ping-tai-shang-xin-zeng-he-xin.md
+      - 新增核心-Windows: 
+          - 環境設定: jin-jie-ying-yong/xin-zeng-he-xin-windows/huan-jing-she-ding.md
+          - 在 SeaDeep 平台上新增核心: jin-jie-ying-yong/xin-zeng-he-xin-windows/zai-seadeep-ping-tai-shang-xin-zeng-he-xin.md
+      - 訓練資料標記方式: 
+          - LabelImg: jin-jie-ying-yong/xun-lian-zi-liao-biao-ji-fang-shi/labelimg.md
+          - Labelme: jin-jie-ying-yong/xun-lian-zi-liao-biao-ji-fang-shi/labelme.md
   # - 使用方法:
   #     - 基本: usage/basic.md
   #     - 進階: usage/advanced.md

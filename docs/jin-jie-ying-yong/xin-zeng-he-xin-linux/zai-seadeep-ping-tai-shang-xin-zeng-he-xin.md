@@ -10,28 +10,24 @@
 指令：cd+空格+kernel路徑
 ```
 
-{% hint style="info" %}
-kernel路徑：打開放置train.py檔案的資料夾，並複製上方整個路徑，貼至terminal指令內。
-{% endhint %}
+> kernel路徑：打開放置train.py檔案的資料夾，並複製上方整個路徑，貼至terminal指令內。
 
-<figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption><p>開啟terminal</p></figcaption></figure>
+![alt text](image-13.png)
 
 ## 2. 執行mini執行檔
 
 於上一步移動路徑後，於後方輸入 「 mini 」 並按下Enter，以執行先前放入usr/local/bin的**mini執行檔**。
 
-{% hint style="info" %}
-mini執行檔的移動方式請參考[**環境設定步驟1**](huan-jing-she-ding.md) 。
-{% endhint %}
+> mini執行檔的移動方式請參考[**環境設定步驟1**](huan-jing-she-ding.md) 。
 
-<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption><p>執行mini檔案</p></figcaption></figure>
+![alt text](image-14.png)
 
 ## 3. 確認是否新增成功
 
 1. 進入[**SeaDeep**](https://www.seadeep.ai/login)，點擊 「 重新整理 」 按鈕。
 2. 如上方有顯示該核心即為新增成功。
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption><p>新增核心成功</p></figcaption></figure>
+![alt text](image-15.png)
 
 ## 4. 確認設定
 
@@ -41,8 +37,6 @@ mini執行檔的移動方式請參考[**環境設定步驟1**](huan-jing-she-din
 4. 確認  「 核心模式 」 下拉選單中出現新核心的選項。
 5. 確認  「 模型參數 」 的Code模式中有顯示先前設定的預設參數。
 
-{% hint style="info" %}
-預設參數的設定方式請參考[**環境設定中的步驟6**](huan-jing-she-ding.md) 。
-{% endhint %}
+> 預設參數的設定方式請參考[**環境設定中的步驟6**](huan-jing-she-ding.md) 。
 
-<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption><p>確認參數設定</p></figcaption></figure>
+![alt text](image-16.png)

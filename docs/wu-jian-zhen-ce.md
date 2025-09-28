@@ -5,22 +5,22 @@
 1. 從左方工作列進入 「 <mark style="color:blue;">訓練項目</mark> 」 。
 2. 點擊放大鏡圖示的 「 <mark style="color:blue;">檢視細節</mark> 」 。
 
-<figure><img src=".gitbook/assets/image (187).png" alt=""><figcaption><p>檢視訓練結果</p></figcaption></figure>
+![alt text](image-7.png)
 
 ## 2. 檢視訓練細節
 
 ### 2.1 參數回顧
 
-<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>參數回顧</p></figcaption></figure>
+![alt text](image-8.png)
 
 ### 2.2 訓練圖表
 
-<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>訓練圖表</p></figcaption></figure>
+![alt text](image-9.png)
 
 ### 2.3 訓練表格
 
-<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption><p>訓練表格</p></figcaption></figure>
+![alt text](image-10.png)
 
 ### 2.4 評估結果
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption><p>評估結果</p></figcaption></figure>
+![alt text](image-11.png)

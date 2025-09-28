@@ -10,6 +10,5 @@ description: 進入入口首頁後首先需要建立一個新的專案，以便�
 
 {% hint style="info" %}
 為新專案命名時，可點選欄位下方的 「 <mark style="color:blue;">找靈感</mark> 」 ，隨機生成專案名稱。
-{% endhint %}
 
-<figure><img src=".gitbook/assets/新增專案 (1).png" alt=""><figcaption><p>新增專案</p></figcaption></figure>
+![alt text](image.png)

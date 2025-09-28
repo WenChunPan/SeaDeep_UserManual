@@ -12,9 +12,11 @@
 * Save Automatically：開啟自動儲存，點擊上方功能列 「 <mark style="color:blue;">File</mark> 」 進入。
 * Change Output Dir：設定標記檔儲存資料夾（須與圖片來源資料夾相同），點擊上方功能列 「 <mark style="color:blue;">File</mark> 」 進入。
 
-<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption><p>常用功能介紹</p></figcaption></figure>
+![alt text](image-3.png)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>常用功能介紹</p></figcaption></figure>
+
+![alt text](image-4.png)
+
 
 ## 標記方式
 
@@ -24,13 +26,11 @@
 4. 快捷鍵D進行下一張標記。
 5. 修改標籤名：點擊 「 <mark style="color:blue;">Edit Polygons</mark> 」 → 點選該標記框中區域 → 右方右鍵點擊標籤名 → 「 <mark style="color:blue;">Edit Label</mark> 」&#x20;
 
-{% hint style="success" %}
-標記時可使用Ctrl搭配滑鼠滾輪放大縮小圖片
-{% endhint %}
+> 標記時可使用Ctrl搭配滑鼠滾輪放大縮小圖片
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>標記方式</p></figcaption></figure>
+![alt text](image-5.png)
+![alt text](me檔案嘗試.gif)
 
-<figure><img src="../../.gitbook/assets/me檔案嘗試.gif" alt=""><figcaption><p>標記幫式</p></figcaption></figure>
 
 ## 注意事項
 
@@ -38,8 +38,7 @@
 2. 如在圖片資料夾內找不到標記檔，請手動點選儲存或使用 「 ctrl+s 」 。
 3. 若還是找不到標記檔請確認 <mark style="color:red;">**「 Change Output Dir 」 位置是否與圖片資料夾相同**</mark>。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>注意事項</p></figcaption></figure>
 
-{% hint style="info" %}
-上傳訓練資料請[**參考新增資料集頁面**](../../mo-xing-xun-lian-tui-lun/shi-li-fen-ge/xin-zeng-zi-liao-ji/)
-{% endhint %}
+![alt text](image-6.png)
+
+> 上傳訓練資料請[**參考新增資料集頁面**](../../mo-xing-xun-lian-tui-lun/shi-li-fen-ge/xin-zeng-zi-liao-ji/)

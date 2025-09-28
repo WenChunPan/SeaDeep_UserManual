@@ -10,7 +10,7 @@
 * PascalVOC：切換標記檔格式，使用預設PascalVOC即可。
 * Create RectBox：開始標記。
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>LabelImg</p></figcaption></figure>
+![alt text](image.png)
 
 ## 標記方式
 
@@ -19,13 +19,11 @@
 3. 畫面右方會出現標籤名稱。
 4. 快捷鍵D進行下一張標記。
 
-{% hint style="success" %}
-標記時可使用Ctrl搭配滑鼠滾輪放大縮小圖片
-{% endhint %}
+> 標記時可使用Ctrl搭配滑鼠滾輪放大縮小圖片
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>進行標記</p></figcaption></figure>
+![alt text](image-1.png)
 
-<figure><img src="../../.gitbook/assets/git檔案嘗試.gif" alt=""><figcaption><p>標記方式</p></figcaption></figure>
+![alt text](labelimg.gif)
 
 ## 注意事項
 
@@ -34,8 +32,6 @@
 3. 若還是找不到標記檔請確認左方 <mark style="color:red;">「</mark> <mark style="color:red;"></mark><mark style="color:red;">**Change Save Dir**</mark> <mark style="color:red;"></mark><mark style="color:red;">」</mark> <mark style="color:red;"></mark><mark style="color:red;">**位置是否與圖片資料夾相同**</mark> 。
 4. 如標記檔副檔名不是XML，請將 「 Save」 下方的按鈕改為PascalVOC。
 
-<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption><p>注意事項</p></figcaption></figure>
+![alt text](image-2.png)
 
-{% hint style="info" %}
-上傳訓練資料請[**參考新增資料集頁面**](../../mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/xin-zeng-zi-liao-ji/)
-{% endhint %}
+> 上傳訓練資料請[**參考新增資料集頁面**](../../mo-xing-xun-lian-tui-lun/wu-jian-zhen-ce/xin-zeng-zi-liao-ji/)

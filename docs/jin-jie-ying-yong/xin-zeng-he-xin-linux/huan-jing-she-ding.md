@@ -8,7 +8,7 @@
 4. 複製mini檔案
 5. 貼上至usr/local/bin資料夾內
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>移動mini檔</p></figcaption></figure>
+![alt text](image.png)
 
 ## 2. 移動其他3個檔案
 
@@ -16,7 +16,7 @@
 2. 複製 「 mini\_sdk 」 資料夾與 「 mini.yaml 」 、 「 infer.py 」 2個檔案
 3. 放至與Python主程式執行檔（train.py）相同的資料夾內
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>移動3個檔案位置</p></figcaption></figure>
+![alt text](image-1.png)
 
 ## 3. 設定mini.yaml檔
 
@@ -36,11 +36,9 @@
   * <mark style="color:blue;">**command：**</mark><mark style="color:orange;">**"python"**</mark>：使用python執行。
   * <mark style="color:blue;">**args：**</mark><mark style="color:yellow;">**\[**</mark>**&#x20;**<mark style="color:orange;">**"infer.py"**</mark>**&#x20;**<mark style="color:yellow;">**]**</mark>：要執行推論的檔案名稱。
 
-{% hint style="danger" %}
-**port**：注意避免使用到與此電腦或SeaDeep其他核心相同的port。
-{% endhint %}
+> **port**：注意避免使用到與此電腦或SeaDeep其他核心相同的port。
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>設定mini.yaml檔</p></figcaption></figure>
+![alt text](image-2.png)
 
 ## 4. 匯入train.py所需套件
 
@@ -49,11 +47,9 @@
 1. 打開 「 train.py 」 。
 2. 從mini\_sdk中import圖片左方的所有套件。
 
-{% hint style="warning" %}
-此為範例檔案，操作時需使用欲放上SeaDeep核心的檔案。
-{% endhint %}
+> 此為範例檔案，操作時需使用欲放上SeaDeep核心的檔案。
 
-<figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption><p>匯入套件</p></figcaption></figure>
+![alt text](image-3.png)
 
 ### 4.2 重要套件說明
 
@@ -62,21 +58,21 @@
 * save\_task\_store\_file：上傳訓練結果
 * upload\_task\_export\_file：上傳訓練好的模型、權重。
 
-{% hint style="success" %}
-SEA\_TASK\_ID可從範例檔案的127行取得，並透過141行程式顯示
-{% endhint %}
+> SEA\_TASK\_ID可從範例檔案的127行取得，並透過141行程式顯示
 
-<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption><p>重要套件說明</p></figcaption></figure>
+![alt text](image-4.png)
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>set_progres：設定SeaDeep的進度條</p></figcaption></figure>
+![alt text](image-5.png)
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>record_task_log：任務訓練的log歷程紀錄</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>save_task_store_file：儲存並上傳訓練結果</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>upload_task_export_file：上傳訓練好的模型、權重</p></figcaption></figure>
+![alt text](image-6.png)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>SEA_TASK_ID取得方式</p></figcaption></figure>
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
 
 ## 5. 將檢查碼放入train.py
 
@@ -86,11 +82,9 @@ SEA\_TASK\_ID可從範例檔案的127行取得，並透過141行程式顯示
 if name == ‘main’：
 ```
 
-{% hint style="success" %}
-檢查碼位於圖片中的121行\~155行
-{% endhint %}
+> 檢查碼位於圖片中的121行\~155行
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>放入檢查碼</p></figcaption></figure>
+![alt text](image-10.png)
 
 ## 6. 設定預設訓練參數
 
@@ -100,10 +94,8 @@ if name == ‘main’：
 param.setdefault( 變數名稱, 預設值 )
 ```
 
-{% hint style="success" %}
-預設參數可設可不設
-{% endhint %}
+> 預設參數可設可不設
 
-<figure><img src="../../.gitbook/assets/image (193).png" alt=""><figcaption><p>設定預設參數</p></figcaption></figure>
+![alt text](image-11.png)
 
-<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption><p>模型訓練時的預設值</p></figcaption></figure>
+![alt text](image-12.png)

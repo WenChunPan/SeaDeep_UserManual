@@ -1,0 +1,46 @@
+/* ===== logo 調整 ===== */
+
+/* 調整 logo 大小 */
+.md-header-nav__logo img {
+    height: 60px;
+    /* 建議不要超過 navbar 高度 */
+    width: auto;
+    /* 等比例縮放 */
+}
+
+/* 微調上下位置 */
+.md-header-nav__logo {
+    margin-top: 0px;
+    /* 往下微調可改成正值 */
+    margin-bottom: 0px;
+}
+
+/* 調整 navbar 中站名文字垂直對齊 */
+.md-header-nav__title {
+    line-height: 60px;
+    /* 跟 logo 高度一致 */
+}
+
+/* ===== 文章字體 ===== */
+.md-typeset {
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif !important;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* 標題加粗 */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600;
+}
+
+/* 程式碼區塊字體 */
+code,
+pre {
+    font-family: "Fira Code", monospace !important;
+}
