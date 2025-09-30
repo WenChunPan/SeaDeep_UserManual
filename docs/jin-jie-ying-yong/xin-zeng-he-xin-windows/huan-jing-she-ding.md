@@ -31,10 +31,10 @@
 * <font color="blue">**endpoint**</font>：SeaDeep的API伺服器位置。
 * <font color="blue">**training**</font>：訓練項目。
   * <font color="blue">**command：**</font>"python"</font>：使用python執行。
-  * <font color="blue">**args：**</font>\**</font>**&#x20;"train.py"**</font>**&#x20;</font>：要執行訓練的檔案名稱。
+  * <font color="blue">**args：**</font>\</font>&#x20;"train.py"</font>**&#x20;</font>：要執行訓練的檔案名稱。
 * <font color="blue">**inference**</font>：推論項目。
   * <font color="blue">**command：**</font>"python"</font>：使用python執行。
-  * <font color="blue">**args：**</font>\**</font>**&#x20;"infer.py"**</font>**&#x20;</font>：要執行推論的檔案名稱。
+  * <font color="blue">**args：**</font>\</font>&#x20;"infer.py"</font>**&#x20;</font>：要執行推論的檔案名稱。
 
 > **port**：注意避免使用到與此電腦或SeaDeep其他核心相同的port。
 
