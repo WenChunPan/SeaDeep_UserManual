@@ -36,7 +36,7 @@
 
 1. 檔名預設與圖片檔名相同，不須變動。
 2. 如在圖片資料夾內找不到標記檔，請手動點選儲存或使用 「 ctrl+s 」 。
-3. 若還是找不到標記檔請確認 <mark style="color:red;">**「 Change Output Dir 」 位置是否與圖片資料夾相同**</font>。
+3. 若還是找不到標記檔請確認 **「 Change Output Dir 」 位置是否與圖片資料夾相同**</font>。
 
 
 ![alt text](image-6.png)

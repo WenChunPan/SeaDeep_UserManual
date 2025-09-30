@@ -29,7 +29,7 @@
 
 1. 檔名預設與圖片檔名相同，不須變動。
 2. 如在圖片資料夾內找不到標記檔，請**手動點選儲存**或使用 「 **ctrl+s** 」 。
-3. 若還是找不到標記檔請確認左方 <mark style="color:red;">「</font> <mark style="color:red;"></font><mark style="color:red;">**Change Save Dir**</font> <mark style="color:red;"></font><mark style="color:red;">」</font> <mark style="color:red;"></font><mark style="color:red;">**位置是否與圖片資料夾相同**</font> 。
+3. 若還是找不到標記檔請確認左方 「</font> </font>**Change Save Dir**</font> </font>」</font> </font>**位置是否與圖片資料夾相同**</font> 。
 4. 如標記檔副檔名不是XML，請將 「 Save」 下方的按鈕改為PascalVOC。
 
 ![alt text](image-2.png)
