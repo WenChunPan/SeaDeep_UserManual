@@ -23,6 +23,5 @@
 5. 確認  「 模型參數 」 的Code模式中有顯示先前設定的預設參數。
 
 > 預設參數的設定方式請參考[**環境設定中的步驟6** ](huan-jing-she-ding.md)。
-{% endhint %}
 
 ![alt text](image-15.png)
