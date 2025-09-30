@@ -34,8 +34,8 @@
 1. 從左方工作列進入 「 <font color="blue">訓練項目</font> 」 。
 2. 點擊 「 <font color="blue">新增訓練項目</font> 」 。
 3. 選擇  「 <font color="blue">其他</font> 」 。
-4. 確認  「 核心模式 」 下拉選單中出現新核心的選項。
-5. 確認  「 模型參數 」 的Code模式中有顯示先前設定的預設參數。
+4. 確認  「 <font color="blue">核心模式</font> 」 下拉選單中出現新核心的選項。
+5. 確認  「 <font color="blue">模型參數</font> 」 的Code模式中有顯示先前設定的預設參數。
 
 > 預設參數的設定方式請參考[**環境設定中的步驟6**](huan-jing-she-ding.md) 。
 
