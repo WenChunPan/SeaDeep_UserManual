@@ -5,6 +5,9 @@ on:                       # ② 觸發條件
     branches:
       - main              # 監控 main 分支的 push
 
+permissions:
+  contents: write  # 允許寫入 gh-pages 分支
+
 jobs:                     # ③ 定義要執行的工作
   deploy:                 # deploy為工作名稱，可自訂
     runs-on: ubuntu-latest # 在哪個環境執行（固定格式）
@@ -20,5 +23,12 @@ jobs:                     # ③ 定義要執行的工作
       - name: Install dependencies # 安裝相依套件
         run: pip install mkdocs mkdocs-material
 
-      - name: Deploy site # 使用指令部署網站， --force: 覆蓋舊版本
-        run: mkdocs gh-deploy --force
+      - name: Build site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GITHUB_TOKEN
+          publish_dir: ./site                   # mkdocs build 生成的資料夾
+          commit_message: "Auto deploy site from GitHub Actions"
