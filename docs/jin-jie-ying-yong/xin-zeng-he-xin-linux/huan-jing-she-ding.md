@@ -23,18 +23,18 @@
 1. 打開移動後的 「 mini.yaml 」 檔
 2. 設定以下參數：
 
-* <mark style="color:blue;">**name**</mark>：此核心名稱。
-* <mark style="color:blue;">**token**</mark>：此用戶身分授權。
-* <mark style="color:blue;">**worker**</mark>：此核心可以同時執行的任務數量。
-* <mark style="color:blue;">**public：false**</mark>：是否將此核心對其他用戶公開。
-* <mark style="color:blue;">**port**</mark>：此裝置與SeaDeep連接的端口。
-* <mark style="color:blue;">**endpoint**</mark>：SeaDeep的API伺服器位置。
-* <mark style="color:blue;">**training**</mark>：訓練項目。
-  * <mark style="color:blue;">**command：**</mark><mark style="color:orange;">**"python"**</mark>：使用python執行。
-  * <mark style="color:blue;">**args：**</mark><mark style="color:yellow;">**\[**</mark>**&#x20;**<mark style="color:orange;">**"train.py"**</mark>**&#x20;**<mark style="color:yellow;">**]**</mark>：要執行訓練的檔案名稱。
-* <mark style="color:blue;">**inference**</mark>：推論項目。
-  * <mark style="color:blue;">**command：**</mark><mark style="color:orange;">**"python"**</mark>：使用python執行。
-  * <mark style="color:blue;">**args：**</mark><mark style="color:yellow;">**\[**</mark>**&#x20;**<mark style="color:orange;">**"infer.py"**</mark>**&#x20;**<mark style="color:yellow;">**]**</mark>：要執行推論的檔案名稱。
+* <font color="blue">**name**</font>：此核心名稱。
+* <font color="blue">**token**</font>：此用戶身分授權。
+* <font color="blue">**worker**</font>：此核心可以同時執行的任務數量。
+* <font color="blue">**public：false**</font>：是否將此核心對其他用戶公開。
+* <font color="blue">**port**</font>：此裝置與SeaDeep連接的端口。
+* <font color="blue">**endpoint**</font>：SeaDeep的API伺服器位置。
+* <font color="blue">**training**</font>：訓練項目。
+  * <font color="blue">**command：**</font><mark style="color:orange;">**"python"**</font>：使用python執行。
+  * <font color="blue">**args：**</font><mark style="color:yellow;">**\[**</font>**&#x20;**<mark style="color:orange;">**"train.py"**</font>**&#x20;**<mark style="color:yellow;">**]**</font>：要執行訓練的檔案名稱。
+* <font color="blue">**inference**</font>：推論項目。
+  * <font color="blue">**command：**</font><mark style="color:orange;">**"python"**</font>：使用python執行。
+  * <font color="blue">**args：**</font><mark style="color:yellow;">**\[**</font>**&#x20;**<mark style="color:orange;">**"infer.py"**</font>**&#x20;**<mark style="color:yellow;">**]**</font>：要執行推論的檔案名稱。
 
 > **port**：注意避免使用到與此電腦或SeaDeep其他核心相同的port。
 

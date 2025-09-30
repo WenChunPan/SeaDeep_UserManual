@@ -9,8 +9,8 @@
 * Edit Polygons：編輯標記。
 * Duplicate Polygons：複製標記（須先點選左方的「Edit Polygons」，再點選該標記框中區域）。
 * Delete Polygons：刪除標記，快捷鍵Delete。
-* Save Automatically：開啟自動儲存，點擊上方功能列 「 <mark style="color:blue;">File</mark> 」 進入。
-* Change Output Dir：設定標記檔儲存資料夾（須與圖片來源資料夾相同），點擊上方功能列 「 <mark style="color:blue;">File</mark> 」 進入。
+* Save Automatically：開啟自動儲存，點擊上方功能列 「 <font color="blue">File</font> 」 進入。
+* Change Output Dir：設定標記檔儲存資料夾（須與圖片來源資料夾相同），點擊上方功能列 「 <font color="blue">File</font> 」 進入。
 
 ![alt text](image-3.png)
 
@@ -24,7 +24,7 @@
 2. 選取先前使用標籤或建立新標籤。
 3. 右方出現標籤名。
 4. 快捷鍵D進行下一張標記。
-5. 修改標籤名：點擊 「 <mark style="color:blue;">Edit Polygons</mark> 」 → 點選該標記框中區域 → 右方右鍵點擊標籤名 → 「 <mark style="color:blue;">Edit Label</mark> 」&#x20;
+5. 修改標籤名：點擊 「 <font color="blue">Edit Polygons</font> 」 → 點選該標記框中區域 → 右方右鍵點擊標籤名 → 「 <font color="blue">Edit Label</font> 」&#x20;
 
 > 標記時可使用Ctrl搭配滑鼠滾輪放大縮小圖片
 
@@ -36,7 +36,7 @@
 
 1. 檔名預設與圖片檔名相同，不須變動。
 2. 如在圖片資料夾內找不到標記檔，請手動點選儲存或使用 「 ctrl+s 」 。
-3. 若還是找不到標記檔請確認 <mark style="color:red;">**「 Change Output Dir 」 位置是否與圖片資料夾相同**</mark>。
+3. 若還是找不到標記檔請確認 <mark style="color:red;">**「 Change Output Dir 」 位置是否與圖片資料夾相同**</font>。
 
 
 ![alt text](image-6.png)

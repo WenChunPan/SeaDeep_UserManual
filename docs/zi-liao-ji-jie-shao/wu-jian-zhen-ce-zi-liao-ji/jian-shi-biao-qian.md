@@ -2,14 +2,14 @@
 
 ## &#x20;1. 查看資料集
 
-1. 從左方工作列進入 「 <mark style="color:blue;">資料集</mark> 」 。
-2. 確認所在位置在**資料集內**的 「 訓練項目 」 後，點擊放大鏡圖示的 「 <mark style="color:blue;">檢視細節</mark> 」 。
+1. 從左方工作列進入 「 <font color="blue">資料集</font> 」 。
+2. 確認所在位置在**資料集內**的 「 訓練項目 」 後，點擊放大鏡圖示的 「 <font color="blue">檢視細節</font> 」 。
 
 ![alt text](image-6.png)
 
 ## 2. 檢視標籤
 
-1. 點擊 「 <mark style="color:blue;">檢視標籤</mark> 」 。
+1. 點擊 「 <font color="blue">檢視標籤</font> 」 。
 2. 檢視標籤功能頁面：**圖片區**、**功能列**、**編輯區**、**標籤區**，可於此頁面新增或修改標記。
 
 > 物件偵測標記儲存格式為**VOC**（如第二張圖最上方所示）
@@ -71,8 +71,8 @@
 
 ### 2.3 儲存
 
-1. 在此頁面有任何變更皆須點擊 「 <mark style="color:blue;">儲存</mark> 」 。
-2. 選擇 「 <mark style="color:blue;">儲存資料</mark> 」 或 「 <mark style="color:blue;">升級版本（需要新增檔案）</mark> 」 。
+1. 在此頁面有任何變更皆須點擊 「 <font color="blue">儲存</font> 」 。
+2. 選擇 「 <font color="blue">儲存資料</font> 」 或 「 <font color="blue">升級版本（需要新增檔案）</font> 」 。
 
 > 升級版本後續流程請[參考此頁面](sheng-ji-ban-ben.md)。
 

@@ -2,9 +2,9 @@
 
 ## 1. 新增訓練項目
 
-1. 從左方工作列進入 「 <mark style="color:blue;">訓練項目</mark> 」 。&#x20;
-2. 點擊 「 <mark style="color:blue;">新增訓練項目</mark> 」 。&#x20;
-3. 點擊 「 <mark style="color:blue;">異常偵測</mark> 」 圖示。
+1. 從左方工作列進入 「 <font color="blue">訓練項目</font> 」 。&#x20;
+2. 點擊 「 <font color="blue">新增訓練項目</font> 」 。&#x20;
+3. 點擊 「 <font color="blue">異常偵測</font> 」 圖示。
 
 {% hint style="warning" %}
 若為第一次使用，須先選擇模型再新增訓練項目（步驟2、3順序相反）。
@@ -17,8 +17,8 @@
 1. 輸入 「 項目名稱 」 。
 2. 選擇先前上傳的訓練資料集。
 3. 關閉 「使用預設參數 」 。
-4. 點擊 「 <mark style="color:blue;">加入訓練排程</mark> 」 。&#x20;
-5. 確認參數後點擊 「 <mark style="color:blue;">開始訓練</mark> 」 。
+4. 點擊 「 <font color="blue">加入訓練排程</font> 」 。&#x20;
+5. 確認參數後點擊 「 <font color="blue">開始訓練</font> 」 。
 
 <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>設定參數</p></figcaption></figure>
 

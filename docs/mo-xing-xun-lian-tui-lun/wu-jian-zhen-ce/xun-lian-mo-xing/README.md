@@ -2,9 +2,9 @@
 
 ## 1. 新增訓練項目
 
-1. 從左方工作列進入 「 <mark style="color:blue;">訓練項目</mark> 」 。
-2. 點擊 「 <mark style="color:blue;">新增訓練項目</mark> 」 。
-3. 點擊 「 <mark style="color:blue;">物件偵測</mark> 」 圖示。
+1. 從左方工作列進入 「 <font color="blue">訓練項目</font> 」 。
+2. 點擊 「 <font color="blue">新增訓練項目</font> 」 。
+3. 點擊 「 <font color="blue">物件偵測</font> 」 圖示。
 
 {% hint style="warning" %}
 若為第一次使用，須先選擇模型再新增訓練項目（步驟2、3順序相反）。
@@ -18,8 +18,8 @@
 2. 選擇先前上傳的訓練資料集。
 3. 關閉 「使用預設參數 」 。
 4. 將學習次數更改為200。
-5. 點擊 「 <mark style="color:blue;">加入訓練排程</mark> 」 。
-6. 確認參數後點擊 「 <mark style="color:blue;">開始訓練</mark> 」 。&#x20;
+5. 點擊 「 <font color="blue">加入訓練排程</font> 」 。
+6. 確認參數後點擊 「 <font color="blue">開始訓練</font> 」 。&#x20;
 
 {% hint style="info" %}
 參數依照當次訓練需求調整。

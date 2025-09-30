@@ -2,8 +2,8 @@
 
 ## 1. 檢視訓練結果
 
-1. 從左方工作列進入 「 <mark style="color:blue;">訓練項目</mark> 」 。
-2. 點擊放大鏡圖示的 「 <mark style="color:blue;">檢視細節</mark> 」 。
+1. 從左方工作列進入 「 <font color="blue">訓練項目</font> 」 。
+2. 點擊放大鏡圖示的 「 <font color="blue">檢視細節</font> 」 。
 
 ![alt text](image-7.png)
 
